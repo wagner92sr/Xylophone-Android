@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private final float NORMAL_PLAY_RATE = 1.0f;
 
     // TODO: Add member variables here
+    private SoundPool mSoundPool;
     private int mCSoundId;
     private int mDSoundId;
     private int mESoundId;
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // TODO: Create a new SoundPool
+        mSoundPool = new SoundPool(NR_OF_SIMULTANEOUS_SOUNDS, AudioManager.STREAM_MUSIC,0);
 
 
         // TODO: Load and get the IDs to identify the sounds
@@ -39,7 +41,33 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // TODO: Add the play methods triggered by the buttons
+    public void playRed(View v){
 
+    }
+
+    public void playOrange(View v){
+
+    }
+
+    public void playYellow(View v){
+
+    }
+
+    public void playGreen(View v){
+
+    }
+
+    public void playDarkGreen(View v){
+
+    }
+
+    public void playBlue(View v){
+
+    }
+
+    public void playPurple(View v){
+
+    }
 
 
 }
